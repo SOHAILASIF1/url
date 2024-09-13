@@ -1,0 +1,28 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build files (for example, in a Java project)
+target/
+
+# Ignore environment files (for credentials, API keys)
+.env
+.env.local
+
+# Ignore compiled files
+*.o
+*.class
+
+# Ignore IDE configuration files (for Visual Studio Code)
+.vscode/
+.idea/

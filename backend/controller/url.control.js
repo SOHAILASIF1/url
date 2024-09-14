@@ -11,7 +11,8 @@ export const urlGenerate=async (req,res)=>{
          redriectId:body.url,
          visitedHistory:[]
      })
-     return res.json({id:shortId})
+     return res.render("Home",{id:shortId})
+    
  }
  catch (error) {
     console.log("ERR",error);
